@@ -12,7 +12,6 @@ Sutun isimleri ingilizce ve snake_case olarak yazilacaktir
     video_ID ...,           -> Dogru kullanim  ✅
     videoIsmi ...,          -> Yanlis kullanim ❎
     video_numarasi ...,     -> Yanlis kullanim ❎
-
 ```
 #### SQL Komutlari
 Butun SQL Komutlari UPPERCASE olarak yazilacaktir.
@@ -31,7 +30,6 @@ Tablo isimleri bas harfi buyuk olucak sekilde ingilizce olarak tanimlanacaktir. 
     CREATE TABLE videolar (...) -> Yanlis kullanim ❎
     CREATE TABLE VIDEOS (...)   -> Yanlis kullanim ❎
     CREATE TABLE vid (...)      -> Yanlis kullanim ❎
-
 ```
 
 #### Birden Fazla Satiri Olan SQL Komutlarinin Yazimi
@@ -50,5 +48,5 @@ Komutlar anlasilacak sekilde satirlara bolunmelidir.
     ALTER TABLE <TABLE NAME> ADD 
     <COLUMN NAME> -- sutun kendinden once gelen SQL komutundan bagimsiz oldugu icin yanlis
     ... --sutun hakkindaki bilgiler sutuntan bagimsiz bir satirda oldugu icin yanlis
-
+```
 
