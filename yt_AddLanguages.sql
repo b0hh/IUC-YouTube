@@ -1,0 +1,2 @@
+ALTER TABLE Channel
+ADD channelLanguage INT FOREIGN KEY REFERENCES Languages(ID)
