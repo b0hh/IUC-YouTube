@@ -1,6 +1,6 @@
 # IUC DBMS II FINAL ODEVI
 
-Final ödevi icin "YouTube Database Design"
+Final ödevi için "YouTube Database Design"
 
 ## Style Guide
 
