@@ -9,7 +9,7 @@ Projede yazilan kodlarin butunlugu icin tasarim rehberi
 #### Sutun Isimlendirmeleri
 Sutun isimleri ingilizce ve snake_case olarak yazilacaktir
 ```
-    video_ID ...,           -> Dogru kullanim  ✅
+    video_name ...,           -> Dogru kullanim  ✅
     videoIsmi ...,          -> Yanlis kullanim ❎
     video_numarasi ...,     -> Yanlis kullanim ❎
 ```
