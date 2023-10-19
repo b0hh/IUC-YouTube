@@ -1,0 +1,5 @@
+CREATE TABLE Languages
+(
+	ID INT NOT NULL PRIMARY KEY,
+	languageName VARCHAR NOT NULL 
+)

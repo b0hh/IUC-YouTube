@@ -1,20 +1,20 @@
 # IUC DBMS II FINAL ODEVI
 
-final odevi icin YouTube database design
+Final ödevi icin "YouTube Database Design"
 
 ## Style Guide
 
-Projede yazilan kodlarin butunlugu icin tasarim rehberi
+Projede yazılan kodların bütünlüğü için tasarım rehberi
 
-#### Sutun Isimlendirmeleri
-Sutun isimleri ingilizce ve snake_case olarak yazilacaktir
+#### Sütun İsimlendirmeleri
+Sütun isimleri ingilizce ve snake_case olarak yazılacaktır.
 ```
     video_name ...,         -> Dogru kullanim  ✅
     videoIsmi ...,          -> Yanlis kullanim ❎
     video_numarasi ...,     -> Yanlis kullanim ❎
 ```
-#### SQL Komutlari
-Butun SQL Komutlari UPPERCASE olarak yazilacaktir.
+#### SQL Komutları
+Bütün SQL Komutları UPPERCASE olarak yazılacaktır.
 
 ```
     SELECT * FROM <TABLE NAME> -> Dogru kullanim  ✅
@@ -22,8 +22,8 @@ Butun SQL Komutlari UPPERCASE olarak yazilacaktir.
     Select * From <TABLE NAME> -> Yanlis kullanim ❎
 ```
 
-#### Tablo Isimlendirilmeleri
-Tablo isimleri bas harfi buyuk olucak sekilde ingilizce olarak tanimlanacaktir. Tablo isimlerinin aciklayici olmasi zorunludur
+#### Tablo İsimlendirilmeleri
+Tablo isimleri baş harfi büyük olacak şekilde ingilizce olarak tanımlanacaktır. Tablo isimlerinin açıklayıcı olması zorunludur.
 
 ```
     CREATE TABLE Videos (...)   -> Dogru kullanim  ✅
@@ -32,7 +32,7 @@ Tablo isimleri bas harfi buyuk olucak sekilde ingilizce olarak tanimlanacaktir. 
     CREATE TABLE vid (...)      -> Yanlis kullanim ❎
 ```
 
-#### Birden Fazla Satiri Olan SQL Komutlarinin Yazimi
+#### Birden Fazla Satırı Olan SQL Komutlarinin Yazımı
 Komutlar anlasilacak sekilde satirlara bolunmelidir.
 
 ```
