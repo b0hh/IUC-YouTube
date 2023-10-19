@@ -1,5 +1,0 @@
-CREATE TABLE Country 
-(
-    ID INT PRIMARY KEY NOT NULL,
-    countryName VARCHAR NOT NULL UNIQUE
-)
