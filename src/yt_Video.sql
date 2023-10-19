@@ -6,5 +6,6 @@ CREATE TABLE Video
    createdAt DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
    likes INT NOT NULL DEFAULT 0 ,
    countryID INT NOT NULL FOREIGN KEY REFERENCES Country(ID)
+   privacy INT NOT NULL FOREIGN KEY REFERENCES Privacy(ID)
    --description FK farkli tablodan gelicek (buyuk data)
 )
