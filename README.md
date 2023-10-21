@@ -50,12 +50,20 @@ Komutlar anlaşılacak şekilde satırlara bölünmelidir.
     ... --sütun hakkındaki bilgiler sütundan bağımsız bir satırda olduğu için yanlış
 ```
 ####  Ekstra İsimlendirme Kuralları
-id -> ID şeklinde yazılacak ve "_" ile ayrılmayacak.
+id -> ID şeklinde yazılacak.
 
 ```
-    videoID  ...,           -> Doğru kullanım  ✅
-    video_ID ...,           -> Yanlış kullanım ❎
-    video_id ...,           -> Yanlış kullanım ❎
+    video_ID  ...,           -> Doğru kullanım  ✅
+    videoID ...,             -> Yanlış kullanım ❎
+    video_id ...,            -> Yanlış kullanım ❎
+```
+
+on tanimli isimler basina "_" eklenerek yazilacak
+
+```
+    _add  ...,           -> Doğru kullanım  ✅
+    __add ...,           -> Yanlış kullanım ❎
+    add_ ...,            -> Yanlış kullanım ❎
 ```
 
 
