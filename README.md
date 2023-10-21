@@ -49,4 +49,13 @@ Komutlar anlaşılacak şekilde satırlara bölünmelidir.
     <COLUMN NAME> -- sütun kendinden önce gelen SQL komutundan bağımsız olduğu için yanlış
     ... --sütun hakkındaki bilgiler sütundan bağımsız bir satırda olduğu için yanlış
 ```
+####  Ekstra İsimlendirme Kuralları
+id -> ID şeklinde yazılacak ve "_" ile ayrılmayacak.
+
+```
+    videoID  ...,           -> Doğru kullanım  ✅
+    video_ID ...,           -> Yanlış kullanım ❎
+    video_id ...,     -> Yanlış kullanım ❎
+```
+
 
