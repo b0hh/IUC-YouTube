@@ -55,7 +55,7 @@ id -> ID şeklinde yazılacak ve "_" ile ayrılmayacak.
 ```
     videoID  ...,           -> Doğru kullanım  ✅
     video_ID ...,           -> Yanlış kullanım ❎
-    video_id ...,     -> Yanlış kullanım ❎
+    video_id ...,           -> Yanlış kullanım ❎
 ```
 
 
