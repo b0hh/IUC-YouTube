@@ -1,4 +1,4 @@
-# IUC DBMS II FINAL ODEVI
+# İÜC DBMS II FİNAL ÖDEVİ
 
 Final ödevi için "YouTube Database Design"
 
@@ -58,7 +58,7 @@ id -> ID şeklinde yazılacak.
     video_id ...,            -> Yanlış kullanım ❎
 ```
 
-on tanimli isimler basina "_" eklenerek yazilacak
+ön tanınmlı isimler başlarına "_" eklenerek yazılacak.
 
 ```
     _add  ...,           -> Doğru kullanım  ✅
