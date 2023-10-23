@@ -23,15 +23,8 @@ Bütün SQL Komutları UPPERCASE olarak yazılacaktır.
 ```
 
 #### Tablo İsimlendirilmeleri
-Tablo isimleri baş harfi büyük olacak şekilde ingilizce olarak tanımlanacaktır. Tablo isimlerinin açıklayıcı olması zorunludur.
-
-```
-    CREATE TABLE Videos (...)   -> Doğru kullanım  ✅
-    CREATE TABLE videolar (...) -> Yanlış kullanım ❎
-    CREATE TABLE VIDEOS (...)   -> Yanlış kullanım ❎
-    CREATE TABLE vid (...)      -> Yanlış kullanım ❎
-```
-birden fazla kelimeden olusan tablolarin isimlendirmeleri PascalCase ve kisaltma/eksiltme yapilmadan tam haliyle olacak.
+Tablo ingilizce ve PascalCase olarak tanımlanacaktır. Tablo isimlerinin açıklayıcı olması zorunludur.
+Birden fazla kelimeden oluşan tabloların isimleri kısaltma/eksiltme yapılmadan tam haliyle olacak.
 
 ```
     CREATE TABLE VideoDescription (...)   -> Doğru kullanım  ✅
@@ -39,6 +32,7 @@ birden fazla kelimeden olusan tablolarin isimlendirmeleri PascalCase ve kisaltma
     CREATE TABLE video_description (...)  -> Yanlış kullanım ❎
     CREATE TABLE VideoDesc (...)          -> Yanlış kullanım ❎
 ```
+birden fazla kelimeden olusan tablolarin isimlendirmeleri PascalCase ve kisaltma/eksiltme yapilmadan tam haliyle olacak.
 
 #### Birden Fazla Satırı Olan SQL Komutlarının Yazımı
 Komutlar anlaşılacak şekilde satırlara bölünmelidir.
