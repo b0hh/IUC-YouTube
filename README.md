@@ -1,6 +1,10 @@
+
 # İÜC DBMS II FİNAL ÖDEVİ
 
 Final ödevi için "YouTube Database Design"
+
+## Gorev Dagılımı
+![Gorev Dagılımı](https://github.com/rqoto/IUC-YouTube/assets/142506536/9556a8cc-869f-4e89-8a8f-9074577b191e)
 
 ## Style Guide
 
