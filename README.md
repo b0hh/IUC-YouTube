@@ -32,7 +32,6 @@ Birden fazla kelimeden oluşan tabloların isimleri kısaltma/eksiltme yapılmad
     CREATE TABLE video_description (...)  -> Yanlış kullanım ❎
     CREATE TABLE VideoDesc (...)          -> Yanlış kullanım ❎
 ```
-birden fazla kelimeden olusan tablolarin isimlendirmeleri PascalCase ve kisaltma/eksiltme yapilmadan tam haliyle olacak.
 
 #### Birden Fazla Satırı Olan SQL Komutlarının Yazımı
 Komutlar anlaşılacak şekilde satırlara bölünmelidir.
