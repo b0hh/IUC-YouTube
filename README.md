@@ -4,7 +4,7 @@
 Final ödevi için "YouTube Database Design"
 
 ## Gorev Dagılımı
-![Gorev Dagılımı](https://github.com/rqoto/IUC-YouTube/assets/142506536/9556a8cc-869f-4e89-8a8f-9074577b191e)
+![Gorev Dagılımı (1)](https://github.com/rqoto/IUC-YouTube/assets/142506536/0e44f63a-4708-4af9-9a10-db83fea37892)
 
 ## Style Guide
 
