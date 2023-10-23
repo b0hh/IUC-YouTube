@@ -31,6 +31,14 @@ Tablo isimleri baş harfi büyük olacak şekilde ingilizce olarak tanımlanacak
     CREATE TABLE VIDEOS (...)   -> Yanlış kullanım ❎
     CREATE TABLE vid (...)      -> Yanlış kullanım ❎
 ```
+birden fazla kelimeden olusan tablolarin isimlendirmeleri PascalCase ve kisaltma/eksiltme yapilmadan tam haliyle olacak.
+
+```
+    CREATE TABLE VideoDescription (...)   -> Doğru kullanım  ✅
+    CREATE TABLE Videodescription (...)   -> Yanlış kullanım ❎
+    CREATE TABLE video_description (...)  -> Yanlış kullanım ❎
+    CREATE TABLE VideoDesc (...)          -> Yanlış kullanım ❎
+```
 
 #### Birden Fazla Satırı Olan SQL Komutlarının Yazımı
 Komutlar anlaşılacak şekilde satırlara bölünmelidir.
