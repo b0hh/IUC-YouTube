@@ -1,5 +1,5 @@
 CREATE TABLE Languages
 (
 	ID INT NOT NULL PRIMARY KEY,
-	languageName VARCHAR NOT NULL 
+	language_name VARCHAR NOT NULL 
 )

@@ -7,4 +7,5 @@ CREATE TABLE Channel
 	channelLanguage INT FOREIGN KEY REFERENCES Languages(ID),
 	created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
 	owner_age DATETIME NOT NULL,
+	-- channel kisisel bilgileri icin farkli tablo olusturulmasi
 )

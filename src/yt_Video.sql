@@ -5,7 +5,9 @@ CREATE TABLE Video
    title VARCHAR NOT NULL DEFAULT GETDATE(),
    createdAt DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
    likes INT NOT NULL DEFAULT 0 ,
-   country_ID INT NOT NULL FOREIGN KEY REFERENCES Country(ID)
-   privacy INT NOT NULL FOREIGN KEY REFERENCES Privacy(ID)
-   --description FK farkli tablodan gelicek (buyuk data)
+   country_ID INT NOT NULL FOREIGN KEY REFERENCES Country(ID),
+   privacy INT NOT NULL FOREIGN KEY REFERENCES Privacy(ID),
+   video_description TEXT NOT NULL FOREIGN KEY REFERENCES VideoDescription(_description)
+   video_type BOOLEAN DEFAULT 0, -- 0 -> normal icerik  / 1 -> cocuklara ozel icerik
+   video_category INT NOT NULL FOREIGN KEY REFERENCES VideoCategory(ID),
 )

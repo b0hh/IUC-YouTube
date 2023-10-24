@@ -1,5 +1,5 @@
 CREATE TABLE Country 
 (
     ID INT PRIMARY KEY NOT NULL,
-    countryName VARCHAR NOT NULL UNIQUE
+    country_name VARCHAR NOT NULL UNIQUE
 )
