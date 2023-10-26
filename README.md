@@ -27,7 +27,7 @@ Bütün SQL Komutları UPPERCASE olarak yazılacaktır.
 ```
 
 #### Tablo İsimlendirilmeleri
-Tablo ingilizce ve PascalCase olarak tanımlanacaktır. Tablo isimlerinin açıklayıcı olması zorunludur.
+Tablo İngilizce ve PascalCase olarak tanımlanacaktır. Tablo isimlerinin açıklayıcı olması zorunludur.
 Birden fazla kelimeden oluşan tabloların isimleri kısaltma/eksiltme yapılmadan tam haliyle olacak.
 
 ```
