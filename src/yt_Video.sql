@@ -7,7 +7,7 @@ CREATE TABLE Video
    likes INT NOT NULL DEFAULT 0 ,
    country_ID INT NOT NULL FOREIGN KEY REFERENCES Country(ID),
    privacy INT NOT NULL FOREIGN KEY REFERENCES Privacy(ID),
-   video_description TEXT NOT NULL FOREIGN KEY REFERENCES VideoDescription(_description)
+   video_description UNIQUEIDENTIFIER NOT NULL FOREIGN KEY REFERENCES VideoDescription(ID),
    video_type BOOLEAN DEFAULT 0, -- 0 -> normal icerik  / 1 -> cocuklara ozel icerik
    video_category INT NOT NULL FOREIGN KEY REFERENCES VideoCategory(ID),
 )
