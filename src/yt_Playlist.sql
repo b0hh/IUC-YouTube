@@ -1,3 +1,9 @@
+-- ↓ SQL TABLO GÖRÜNÜMÜ ↓
+
+-- +----+----------+------------+------------+
+-- | ID | video_ID | channel_ID | privacy_ID |
+-- +----+----------+------------+------------+
+
 CREATE TABLE Playlist 
 (
     ID UNIQUEIDENTIFIER NOT NULL DEFAULT NEWID() PRIMARY KEY,

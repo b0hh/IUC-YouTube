@@ -1,3 +1,9 @@
+-- ↓ SQL TABLO GÖRÜNÜMÜ ↓
+
+-- +----+----------+---------+
+-- | ID | video_ID | comment |
+-- +----+----------+---------+
+
 CREATE TABLE Comments 
 (
 	ID UNIQUEIDENTIFIER  DEFAULT newid() NOT NULL PRIMARY KEY,

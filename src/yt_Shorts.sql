@@ -1,3 +1,9 @@
+-- ↓ SQL TABLO GÖRÜNÜMÜ ↓
+
+-- +----+------------+-------+----------------+------------+---------------+------------+---------+
+-- | ID | channel_ID | title | description_ID | like_count | dislike_count | created_at | privacy | 
+-- +----+------------+-------+----------------+------------+---------------+------------+---------+
+
 CREATE TABLE Shorts
 (
     ID UNIQUEIDENTIFIER NOT NULL DEFAULT NEWID() PRIMARY KEY,

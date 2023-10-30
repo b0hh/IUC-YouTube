@@ -1,3 +1,9 @@
+-- ↓ SQL TABLO GÖRÜNÜMÜ ↓
+
+-- +----+--------------+
+-- | ID | _description |
+-- +----+--------------+
+
 CREATE TABLE ChannelDescription
 (
 	ID UNIQUEIDENTIFIER NOT NULL DEFAULT NEWID() PRIMARY KEY,

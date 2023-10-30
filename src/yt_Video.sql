@@ -1,9 +1,15 @@
+-- ↓ SQL TABLO GÖRÜNÜMÜ ↓
+
+-- +----+------------+-------+------------+-------+------------+---------+-------------------+------------+----------------+
+-- | ID | channel_ID | title | created_at | likes | country_ID | privacy | video_description | video_type | video_category |
+-- +----+------------+-------+------------+-------+------------+---------+-------------------+------------+----------------+
+
 CREATE TABLE Video 
 (
    ID UNIQUEIDENTIFIER NOT NULL DEFAULT NEWID() PRIMARY KEY,
    channel_ID UNIQUEIDENTIFIER NOT NULL FOREIGN KEY REFERENCES Channel(ID), 
    title VARCHAR NOT NULL DEFAULT GETDATE(),
-   createdAt DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+   created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
    likes INT NOT NULL DEFAULT 0 ,
    country_ID INT NOT NULL FOREIGN KEY REFERENCES Country(ID),
    privacy INT NOT NULL FOREIGN KEY REFERENCES Privacy(ID),
