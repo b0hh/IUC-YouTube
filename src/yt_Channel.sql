@@ -13,5 +13,7 @@ CREATE TABLE Channel
 	channel_language INT FOREIGN KEY REFERENCES Languages(ID),
 	created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
 	owner_age DATETIME NOT NULL,
+	channel_type INT FOREIGN KEY REFERENCES ChannelTypes(ID)
+	is_verified BIT NOT NULL DEFAULT 0, -- 0 -> Dogrulanmamis kanal / 1 -> dogrulanmis kanal 
 	--TODO channel kisisel bilgileri icin farkli tablo olusturulması
 )
