@@ -6,6 +6,13 @@ Final ödevi için "YouTube Database Design"
 ## Style Guide
 
 Projede yazılan kodların bütünlüğü için tasarım rehberi
+####  Dosya İsimlendirme 
+Dosyalar test edilmeden once Ingilizce ve PascalCase olarak yazilacaktir. Testi yapilmis dosyalar baslarina 'yt_' ibaresi konularak yeniden adlandirilacaktir.
+```
+    Channel.sql < -- > yt_Channel.sql       -> Doğru kullanım  ✅
+    kanal.sql   < -- > yt_kanal.sql         -> Yanlış kullanım ❎
+    chan.sql    < -- > youtube_chan.sql     -> Yanlış kullanım ❎
+```
 
 #### Sütun İsimlendirmeleri
 Sütun isimleri ingilizce ve snake_case olarak yazılacaktır.
