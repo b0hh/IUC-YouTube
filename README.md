@@ -7,7 +7,7 @@ Final ödevi için "YouTube Database Design"
 
 Projede yazılan kodların bütünlüğü için tasarım rehberi
 ####  Dosya İsimlendirme 
-Dosyalar test edilmeden once Ingilizce ve PascalCase olarak yazilacaktir. Testi yapilmis dosyalar baslarina 'yt_' ibaresi konularak yeniden adlandirilacaktir.
+Dosyalar test edilmeden önce Ingilizce ve PascalCase olarak yazılacaktır. Testi yapılmış dosyalar başlarına 'yt_' ibaresi konularak yeniden adlandırılacaktır.
 ```
     Channel.sql < -- > yt_Channel.sql       -> Doğru kullanım  ✅
     kanal.sql   < -- > yt_kanal.sql         -> Yanlış kullanım ❎
