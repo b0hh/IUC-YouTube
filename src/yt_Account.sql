@@ -10,5 +10,6 @@ CREATE TABLE Account
     account_email_adress VARCHAR(320) NOT NULL UNIQUE,
     account_password VARCHAR(64) NOT NULL, -- INSERT ederken hashlenicek
     account_banner_image IMAGE,
+	owner_age DATETIME NOT NULL,
     account_profile_picture IMAGE,
 )
