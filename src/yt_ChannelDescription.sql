@@ -1,11 +1,12 @@
 -- ↓ SQL TABLO GÖRÜNÜMÜ ↓
 
--- +----+--------------+
--- | ID | _description |
--- +----+--------------+
+-- +----+------------+--------------+
+-- | ID | channel_ID | _description | 
+-- +----+------------+--------------+
 
 CREATE TABLE ChannelDescription
 (
 	ID UNIQUEIDENTIFIER NOT NULL DEFAULT NEWID() PRIMARY KEY,
-    _description TEXT NOT NULL DEFAULT ' ', -- desrciption on tanimli oldugu icin _ eklendi.
-)
+    channel_ID UNIQUEIDENTIFIER NOT NULL FOREIGN KEY REFERENCES Channel(ID),
+   _description TEXT NOT NULL DEFAULT ' ', -- desrciption on tanimli oldugu icin _ eklendi.
+)    
