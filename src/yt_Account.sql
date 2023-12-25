@@ -6,7 +6,7 @@
 
 CREATE TABLE Account
 (
-    ID UNIQUEIDENTIFIER NOT NULL DEFAULT NEWID() PRIMARY KEY,
+    ID UNIQUEIDENTIFIER NOT NULL FOREIGN KEY REFERENCES Channel(ID),
     account_email_adress VARCHAR(320) NOT NULL UNIQUE,
     account_password VARCHAR(64) NOT NULL, -- INSERT ederken hashlenicek
     account_banner_image IMAGE,
