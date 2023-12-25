@@ -6,7 +6,7 @@
 
 CREATE TABLE Channel
 (
-	ID UNIQUEIDENTIFIER NOT NULL FOREIGN KEY REFERENCES Account(ID),
+	account_ID UNIQUEIDENTIFIER NOT NULL FOREIGN KEY REFERENCES Account(ID),
 	channel_name VARCHAR(255) NOT NULL,
 	channel_domain_name VARCHAR(255) NOT NULL UNIQUE, -- Örnek : https://www.youtube.com/@user_name -> @username hem kullanıcı adı hem de kanalı tanımlayan özel domain
 	channel_created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
