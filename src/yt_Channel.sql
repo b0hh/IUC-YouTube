@@ -10,7 +10,6 @@ CREATE TABLE Channel
 	channel_name VARCHAR(255) NOT NULL,
 	channel_domain_name VARCHAR(255) NOT NULL UNIQUE, -- Örnek : https://www.youtube.com/@user_name -> @username hem kullanıcı adı hem de kanalı tanımlayan özel domain
 	channel_created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-	channel_language INT FOREIGN KEY REFERENCES Languages(ID),
 	created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
 	owner_age DATETIME NOT NULL,
 	channel_type INT FOREIGN KEY REFERENCES ChannelTypes(ID)
