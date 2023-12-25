@@ -6,7 +6,7 @@
 
 CREATE TABLE Channel
 (
-	account_ID UNIQUEIDENTIFIER NOT NULL PRIMARY KEY,
+	account_ID UNIQUEIDENTIFIER NOT NULL DEFAULT NEWID() PRIMARY KEY,
 	channel_name VARCHAR(255) NOT NULL,
 	channel_domain_name VARCHAR(255) NOT NULL UNIQUE, -- Örnek : https://www.youtube.com/@user_name -> @username hem kullanıcı adı hem de kanalı tanımlayan özel domain
 	channel_created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
