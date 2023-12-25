@@ -17,4 +17,5 @@ CREATE TABLE Video
    video_description UNIQUEIDENTIFIER NOT NULL FOREIGN KEY REFERENCES VideoDescription(ID),
    video_type BIT DEFAULT 0, -- 0 -> normal icerik  / 1 -> cocuklara ozel icerik
    video_category INT NOT NULL FOREIGN KEY REFERENCES VideoCategory(ID),
+   video_link VARCHAR NOT NULL UNIQUE FOREIGN KEY REFERENCES Link(link)
 )
