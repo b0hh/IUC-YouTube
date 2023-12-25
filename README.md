@@ -67,7 +67,7 @@ id -> ID şeklinde yazılacak.
     video_id ...,            -> Yanlış kullanım ❎
 ```
 
-ön tanınmlı isimler başlarına "_" eklenerek yazılacak.
+ön tanımlı isimler başlarına "_" eklenerek yazılacak.
 
 ```
     _add  ...,           -> Doğru kullanım  ✅
