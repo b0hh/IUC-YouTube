@@ -6,6 +6,6 @@
 
 CREATE TABLE ChannelTypes
 (
-    ID INT PRIMARY KEY IDENTITY(1,1),
+    ID INT NOT NULL PRIMARY KEY IDENTITY(1,1),
     type_name VARCHAR(64),
 )

@@ -1,0 +1,5 @@
+CREATE TABLE Category
+(
+    ID INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+    category_name VARCHAR NOT NULL,
+)
