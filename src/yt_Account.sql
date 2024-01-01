@@ -12,4 +12,5 @@ CREATE TABLE Account
     account_banner_image IMAGE,
 	owner_age DATETIME NOT NULL,
     account_profile_picture IMAGE,
+    country_ID INT NOT NULL FOREIGN KEY REFERENCES Country(ID),
 )

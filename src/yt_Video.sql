@@ -11,9 +11,7 @@ CREATE TABLE Video
    duration          INT NOT NULL,
    title             VARCHAR NOT NULL DEFAULT GETDATE(),
    created_at        DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-   privacy           INT NOT NULL FOREIGN KEY REFERENCES Privacy(ID),
-   video_description UNIQUEIDENTIFIER NOT NULL FOREIGN KEY REFERENCES VideoDescription(ID),
+   privacy_ID           INT NOT NULL FOREIGN KEY REFERENCES Privacy(ID),
    video_type        BIT DEFAULT 0, -- 0 -> normal icerik  / 1 -> cocuklara ozel icerik
-   video_category    INT NOT NULL FOREIGN KEY REFERENCES VideoCategory(ID),
    video_link        VARCHAR NOT NULL UNIQUE FOREIGN KEY REFERENCES Link(link)
 )
