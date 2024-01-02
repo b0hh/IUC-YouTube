@@ -5,6 +5,10 @@ Final ödevi için "YouTube Database Design"
 
 ## Style Guide
 
+
+![Diagram](https://github.com/rqoto/IUC-YouTube/assets/147338084/d4060487-246e-4598-a44a-6a636531fae0)
+
+
 Projede yazılan kodların bütünlüğü için tasarım rehberi
 ####  Dosya İsimlendirme 
 Dosyalar test edilmeden önce Ingilizce ve PascalCase olarak yazılacaktır. Testi yapılmış dosyalar başlarına 'yt_' ibaresi konularak yeniden adlandırılacaktır.
