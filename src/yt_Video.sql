@@ -13,5 +13,7 @@ CREATE TABLE Video
    created_at        DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
    privacy_ID           INT NOT NULL FOREIGN KEY REFERENCES Privacy(ID),
    video_type        BIT DEFAULT 0, -- 0 -> normal icerik  / 1 -> cocuklara ozel icerik
-   video_link        VARCHAR NOT NULL UNIQUE FOREIGN KEY REFERENCES Link(link)
+   --video_link'i sonradan alter table ile eklemek gerekiyor
+   video_link        VARCHAR NOT NULL UNIQUE FOREIGN KEY REFERENCES VideoLink(link)
 )
+
