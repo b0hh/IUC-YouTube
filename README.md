@@ -3,6 +3,10 @@
 
 Final ödevi için "YouTube Database Design"
 
+
+
+![Diagram](https://github.com/rqoto/IUC-YouTube/assets/147338084/d4060487-246e-4598-a44a-6a636531fae0)
+
 ## Style Guide
 
 Projede yazılan kodların bütünlüğü için tasarım rehberi
