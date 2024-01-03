@@ -5,5 +5,4 @@ CREATE TABLE CommunityPost
     post_description TEXT,
     privacy INT NOT NULL FOREIGN KEY REFERENCES Privacy(ID),
     media_content IMAGE,
-    -- oylama soru cevap gibi ozellikler de var sonra ekleriz
 )
