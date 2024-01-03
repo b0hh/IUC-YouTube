@@ -10,7 +10,6 @@ CREATE TABLE Video
    channel_ID        UNIQUEIDENTIFIER NOT NULL FOREIGN KEY REFERENCES Channel(ID), 
    duration          INT NOT NULL,
    title             VARCHAR NOT NULL DEFAULT GETDATE(),
-   created_at        DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
    privacy_ID           INT NOT NULL FOREIGN KEY REFERENCES Privacy(ID),
    video_type        BIT DEFAULT 0, -- 0 -> normal icerik  / 1 -> cocuklara ozel icerik
    --video_link'i sonradan alter table ile eklemek gerekiyor
