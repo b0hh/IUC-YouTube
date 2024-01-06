@@ -4,7 +4,7 @@
 Final ödevi için "YouTube Database Design"
 
 
-![Diagram](https://github.com/rqoto/IUC-YouTube/assets/147338084/ca209a00-595f-4c52-a4f8-00c96a411e5d)
+![Diagram](https://github.com/rqoto/IUC-YouTube/assets/147338084/cfacb610-57cb-436e-bf6e-7c2430512a8e)
 
 
 
