@@ -9,7 +9,8 @@ Final ödevi için "YouTube Database Design"
 
 
 ## Kavramsal Model
-![Kavramsal Model](https://github.com/rqoto/IUC-YouTube/assets/142506536/83455728-e1ae-49a6-89c8-f3859b24781b)
+
+![er-diyagramı](https://github.com/rqoto/IUC-YouTube/assets/147338084/52b521f6-12db-4e27-a5e1-2dcf51adb774)
 
 
 
