@@ -5,8 +5,8 @@ Final ödevi için "YouTube Database Design"
 
 ## Mantıksal Modeller
 ![Diagram](https://github.com/rqoto/IUC-YouTube/assets/147338084/cfacb610-57cb-436e-bf6e-7c2430512a8e)
+![Diagram2](https://github.com/rqoto/IUC-YouTube/assets/147338084/9035cb3e-d8d9-463c-b693-76c22075a6a2)
 
-![Diagram2](https://github.com/rqoto/IUC-YouTube/assets/147338084/469f3654-8898-4092-b619-b6dec3bb43cb)
 
 ## Kavramsal Model
 ![Kavramsal Model](https://github.com/rqoto/IUC-YouTube/assets/142506536/83455728-e1ae-49a6-89c8-f3859b24781b)
